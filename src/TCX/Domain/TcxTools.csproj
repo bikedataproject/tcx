@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>melharbour</Authors>
+    <Company>melharbour</Company>
+    <PackageLicenseUrl>https://github.com/MelHarbour/TcxTools/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/MelHarbour/TcxTools</RepositoryUrl>
+    <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/MelHarbour/TcxTools</PackageProjectUrl>
+    <Copyright>Copyright 2017</Copyright>
+    <Description>Tools for manipulating Garmin Training Center XML files.</Description>
+    <PackageReleaseNotes>NET Standard release.</PackageReleaseNotes>
+    <PackageTags>Garmin tcx</PackageTags>
+    <RepositoryType>GitHub</RepositoryType>
+  </PropertyGroup>
+
+</Project>
