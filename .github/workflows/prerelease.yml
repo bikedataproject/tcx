@@ -27,5 +27,5 @@ jobs:
     - name: Add GitHub Nuget Source
       run: dotnet nuget add source https://nuget.pkg.github.com/bikedataproject/index.json -n github -u xivk -p ${{secrets.PACKAGES_SECRET }} --store-password-in-clear-text
     - name: Push
-      run: dotnet nuget push **/*.nupkg --source github
+      run: dotnet nuget push **/*.nupkg --source github --skip-duplicate
       working-directory: ./src/TCX/
