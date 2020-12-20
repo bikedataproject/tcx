@@ -21,7 +21,7 @@ namespace TCX.Tests
             Assert.Single(result.Activities.Activity[0].Lap);
             Assert.NotNull(result.Activities.Activity[0].Lap[0]);
             Assert.NotNull(result.Activities.Activity[0].Lap[0].Track);
-            Assert.True(result.Activities.Activity[0].Lap[0].Track.Count > 20);
+            Assert.True(result.Activities.Activity[0].Lap[0].Track.Count > 2);
         }
     }
 }
