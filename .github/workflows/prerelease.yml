@@ -25,7 +25,7 @@ jobs:
       run: dotnet pack --configuration release
       working-directory: ./src/TCX/
     - name: Add GitHub Nuget Source
-      run: dotnet nuget add source https://nuget.pkg.github.com/bikedataproject/index.json -n github -u xivk -p ${{secrets.PACKAGES_SECRET }}
+      run: dotnet nuget add source https://nuget.pkg.github.com/bikedataproject/index.json -n github -u xivk -p ${{secrets.PACKAGES_SECRET }} --store-password-in-clear-text
     - name: Push
       run: dotnet nuget push **/*.nupkg --source github
       working-directory: ./src/TCX/
