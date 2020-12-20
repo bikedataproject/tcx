@@ -29,6 +29,7 @@ jobs:
       with:
         files: 'NuGet.Config.actions'
         replacements: '%%username%%=xivk,%%token%%=${{ secrets.PACKAGES_SECRET }}'      
+    - run: mv NuGet.Config.actions NuGet.Config     
     - name: Push
       run: dotnet nuget push **/*.nupkg --source github-bikedataproject
       working-directory: ./src/TCX/
