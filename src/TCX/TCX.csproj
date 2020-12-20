@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>TCX</Title>
+    <Authors>Melvyn Harbour, Bike Data Project Contributors</Authors>
+    <Description>A small library to read/write TCX files.</Description>
+    <PackageLicenseUrl>https://github.com/bikedataproject/tcx/blob/main/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
 </Project>
