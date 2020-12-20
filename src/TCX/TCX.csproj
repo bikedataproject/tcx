@@ -7,6 +7,11 @@
     <Authors>Melvyn Harbour, Bike Data Project Contributors</Authors>
     <Description>A small library to read/write TCX files.</Description>
     <PackageLicenseUrl>https://github.com/bikedataproject/tcx/blob/main/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/bikedataproject/tcx</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/bikedataproject/tcx/raw/main/logo-265.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/bikedataproject/tcx</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>TCX, GPS</PackageTags>
   </PropertyGroup>
 
 </Project>
